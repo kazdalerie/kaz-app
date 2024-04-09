@@ -1,0 +1,85 @@
+.hero_header_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Espacement entre le texte et l'image */
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 5%; /* Réduit le padding pour moins d'espace autour de la section */
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%; /* Espace alloué au texte */
+  gap: 20px; /* Espacement entre les éléments du texte ajusté */
+}
+
+.left h1 {
+  font-size: 64px;
+  line-height: 1.2;
+  margin-bottom: 20px; /* Réduit la marge sous le titre */
+  text-align: left;
+}
+
+.left h3 {
+  font-size: 24px;
+  line-height: 1.3;
+  font-weight: bold;
+  margin-bottom: 15px; /* Réduit la marge sous le sous-titre */
+}
+
+.left p {
+  line-height: 1.5;
+  width: 90%;
+  margin-bottom: 15px; /* Réduit la marge sous les paragraphes */
+}
+
+.right {
+  flex: 1; /* Permet à l'image d'occuper l'espace restant */
+  display: flex;
+  justify-content: flex-end; /* Alignement de l'image à droite */
+  align-items: center;
+}
+
+.right img {
+  width: auto; /* Maintient les proportions de l'image */
+  max-width: 100%; /* S'assure que l'image ne dépasse pas son conteneur */
+  max-height: 90vh; /* Taille de l'image ajustée */
+}
+
+@media screen and (max-width: 1350px) {
+  .hero_header_section {
+    flex-direction: column;
+    padding: 60px 1%; /* Ajustement du padding pour les appareils plus petits */
+  }
+
+  .left, .right img {
+    max-width: 100%; /* Assure que le contenu s'adapte à la largeur de l'écran */
+  }
+
+  .left {
+    gap: 15px;
+  }
+
+  .left p {
+    width:100% !important;
+  }
+
+  .left h1, .left h3, .left p {
+    margin-bottom: 10px; /* Réduit la marge pour une apparence plus compacte */
+    text-align: center; /* Centrage du texte */
+  }
+
+  .left h1 {
+    font-size: 48px; /* Ajuste la taille de la police pour le titre */
+  }
+
+  .left h3 {
+    font-size: 20px; /* Ajuste la taille de la police pour les sous-titres */
+  }
+
+  .right img {
+    max-height: 50vh; /* Ajuste la hauteur de l'image pour les petits écrans */
+    margin: 0 auto; /* Centrage automatique de l'image */
+  }
+}
