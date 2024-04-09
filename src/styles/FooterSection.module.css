@@ -1,3 +1,7 @@
 .main_p {
   text-align: left !important;
 }
+
+.main {
+  background-color: transparent !important;
+}

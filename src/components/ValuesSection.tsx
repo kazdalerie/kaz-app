@@ -45,7 +45,7 @@ function ValuesSection() {
           <Typography
             variant="h3"
             component="h1"
-            sx={{ color: "#71a894", fontWeight: "bold" }}
+            sx={{ color: "#142A2E", fontWeight: "bold" }}
             gutterBottom
           >
             Notre concept
@@ -74,6 +74,8 @@ function ValuesSection() {
                   alignItems: "center",
                   justifyContent: "center",
                   padding: "64px 17px",
+                  backgroundColor: "#142A2E", // Set green background color
+                  color: "#FFFFFF",
                 }}
               >
                 <img

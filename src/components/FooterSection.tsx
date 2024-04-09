@@ -1,10 +1,11 @@
-import { Box, TextField, Button, Grid, Container } from "@mui/material";
+import { Box, TextField, Button, Grid, Container, Typography } from "@mui/material";
+import styles from "../styles/Footer.module.css";
 
 function FooterSection() {
   return (
     <Box
       sx={{
-        bgcolor: "#ffffff",
+        bgcolor: "transparant",
         p: { xs: "80px 30px", md: "80px" },
         display: 'flex', // Added for centering
         alignItems: 'center', // Added for centering
@@ -14,24 +15,28 @@ function FooterSection() {
       id="contact"
     >
       <Container maxWidth="sm"> {/* Changed from false to "sm" to limit the width of the form */}
-          <Box display="flex" justifyContent="center" mt={3}>
-            <h3
-            >
-              Envie d'ouvrir une Kazdalerie ?
-            </h3>
-          </Box>
+      <Box textAlign="center" mb={7.5}>
+          <Typography
+            variant="h3"
+            component="h1"
+            sx={{ color: "#142A2E", fontWeight: "bold" }}
+            gutterBottom
+          >
+            Envie d'ouvrir une Kazdalerie ?
+          </Typography>
+        </Box>
         <form
+          className={styles.main}
           onSubmit={(e) => {
             e.preventDefault();
-            alert("Votre réservation a été envoyée !");
+            alert("Votre message a été envoyée !");
           }}
         >
           <Grid container spacing={2.5}>
             <Grid item xs={12} sm={6}>
               <TextField
                 variant="standard"
-                label="Nom"
-                helperText="Veuillez entrer un nom valide"
+                label="Nom complet"
                 required
                 fullWidth
               />
@@ -39,19 +44,8 @@ function FooterSection() {
             <Grid item xs={12} sm={6}>
               <TextField
                 variant="standard"
-                label="Prénom"
-                type="text"
-                helperText="Veuillez entrer un prénom valide"
-                required
-                fullWidth
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <TextField
-                variant="standard"
-                type="number"
-                helperText="Veuillez entrer un numéro de téléphone valide"
                 label="N° de téléphone"
+                type="number"
                 required
                 fullWidth
               />
@@ -60,7 +54,6 @@ function FooterSection() {
               <TextField
                 variant="standard"
                 label="Adresse email"
-                helperText="Veuillez entrer une adresse email valide"
                 required
                 fullWidth
                 type="email"
@@ -69,8 +62,16 @@ function FooterSection() {
             <Grid item xs={12}>
               <TextField
                 variant="standard"
+                label="Avez-vous un local"
+                required
+                fullWidth
+                type="text"
+              />
+            </Grid>
+            <Grid item xs={12}>
+              <TextField
+                variant="standard"
                 label="Message"
-                helperText="Veuillez entrer votre message"
                 required
                 fullWidth
                 multiline
@@ -81,7 +82,6 @@ function FooterSection() {
               <TextField
                 variant="standard"
                 label="Commentaires"
-                helperText="Veuillez entrer vos commentaires"
                 required
                 fullWidth
                 multiline
@@ -93,11 +93,11 @@ function FooterSection() {
             <Button
               type="submit"
               sx={{
-                backgroundColor: "#71A894",
+                backgroundColor: "#142A2E",
                 padding: "20px 24px",
                 borderRadius: "46px",
                 ":hover": {
-                  backgroundColor: "#71A894",
+                  backgroundColor: "#142A2E",
                 },
               }}
             >
