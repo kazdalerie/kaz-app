@@ -48,7 +48,7 @@ function ValuesSection() {
             sx={{ color: "#71a894", fontWeight: "bold" }}
             gutterBottom
           >
-            Nos valeurs
+            Notre concept
           </Typography>
         </Box>
 

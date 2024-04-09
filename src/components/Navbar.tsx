@@ -25,11 +25,15 @@ const navItems = [
     link: "#about",
   },
   {
-    content: "Nos valeurs",
+    content: "Notre concept",
     link: "#values",
   },
   {
-    content: "Réservez",
+    content: "Suivez nous",
+    link: "#contact",
+  },
+  {
+    content: "Devenir associé",
     link: "#contact",
   },
 ];
@@ -45,7 +49,7 @@ export default function DrawerAppBar(props: Props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "left" }}>
       <Link href="#" sx={{ paddingX: 5 }}>
-        <img src="/images/logo.svg" alt="" />
+        <img src="/images/logo-kasdalsmol.jpeg" alt="kazdalerie" />
       </Link>
       <Divider />
       <List>

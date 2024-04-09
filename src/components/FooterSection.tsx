@@ -4,7 +4,7 @@ function FooterSection() {
   return (
     <Box
       sx={{
-        bgcolor: "#f3f0ea",
+        bgcolor: "#ffffff",
         p: { xs: "80px 30px", md: "80px" },
         display: 'flex', // Added for centering
         alignItems: 'center', // Added for centering
@@ -101,7 +101,7 @@ function FooterSection() {
                 },
               }}
             >
-              Réserver
+              Envoyer
             </Button>
           </Box>
         </form>
