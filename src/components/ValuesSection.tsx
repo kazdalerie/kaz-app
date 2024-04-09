@@ -4,27 +4,27 @@ function ValuesSection() {
   const values = [
     {
       logo: "/icons/coffee-icon.svg",
-      title: "Passionné de Café",
+      title: "Une marque de street-food maghrébine autour du traditionnel msemen",
       description:
-        "Notre équipe est passionnée par l'art de préparer le café. Chaque grain est soigneusement sélectionné pour offrir une expérience gustative exceptionnelle. Nous nous engageons à vous offrir des saveurs riches et uniques dans chaque tasse.",
+        "",
     },
     {
       logo: "/icons/cat-icon.svg",
-      title: "Bien-être des Chats",
+      title: "Des recettes copieuses et savoureuses crées par Zack Nani",
       description:
-        "Le bonheur et le bien-être de nos amis félins sont au cœur de notre philosophie. Nous offrons un environnement sûr et confortable à nos chats résidents, où ils peuvent interagir avec nos clients et recevoir toute l'attention et l'affection qu'ils méritent.",
+        "",
     },
     {
       logo: "/icons/plant-icon.svg",
-      title: "Engagement Environnemental",
+      title: "Un menu simple de 4 sandwichs, 2 sides et 3 desserts qui facilite les opérations en cuisine",
       description:
-        "Nous sommes soucieux de l'impact environnemental de notre entreprise. C'est pourquoi nous nous engageons à utiliser des produits respectueux de l'environnement et à promouvoir des pratiques durables dans tous les aspects de notre activité, de la sélection des fournisseurs à la gestion des déchets.",
+        "",
     },
     {
       logo: "/icons/plant-icon.svg",
-      title: "Engagement Environnemental",
+      title: "80% d'ingrédients préparés sur place ou par nos artisans partenaires",
       description:
-        "Nous sommes soucieux de l'impact environnemental de notre entreprise. C'est pourquoi nous nous engageons à utiliser des produits respectueux de l'environnement et à promouvoir des pratiques durables dans tous les aspects de notre activité, de la sélection des fournisseurs à la gestion des déchets.",
+        "",
     },
   ];
 
