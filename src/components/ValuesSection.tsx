@@ -3,25 +3,25 @@ import { Container, Box, Typography, Paper, CssBaseline } from "@mui/material";
 function ValuesSection() {
   const values = [
     {
-      logo: "/icons/coffee-icon.svg",
+      logo: "/icons/foodcart.png",
       title: "Une marque de street-food maghrébine autour du traditionnel msemen",
       description:
         "",
     },
     {
-      logo: "/icons/cat-icon.svg",
+      logo: "/icons/saladier.png",
       title: "Des recettes copieuses et savoureuses crées par Zack Nani",
       description:
         "",
     },
     {
-      logo: "/icons/plant-icon.svg",
+      logo: "/icons/cartemenu.png",
       title: "Un menu simple de 4 sandwichs, 2 sides et 3 desserts qui facilite les opérations en cuisine",
       description:
         "",
     },
     {
-      logo: "/icons/plant-icon.svg",
+      logo: "/icons/provisions.png",
       title: "80% d'ingrédients préparés sur place ou par nos artisans partenaires",
       description:
         "",
