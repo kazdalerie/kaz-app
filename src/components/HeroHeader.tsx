@@ -1,4 +1,3 @@
-import { Typography } from "@mui/material";
 import styles from "../styles/HeroHeader.module.css";
 
 export default function HeroHeader() {
