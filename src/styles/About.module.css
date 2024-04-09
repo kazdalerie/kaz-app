@@ -1,10 +1,10 @@
+/* About.module.css */
 .about_section {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 100px;
   width: 100%;
-
 }
 
 .about_section_container {
@@ -15,13 +15,12 @@
 }
 
 .left img {
-  max-width: 80%; /* Réduit la largeur maximale de l'image */
-  padding: 0; /* Enlève le padding pour éviter un espacement inutile autour de l'image */
-  display: block; /* Assure que l'image est traitée comme un bloc pour centrer */
-  margin: 0 auto; /* Centre l'image horizontalement dans son conteneur */
+  max-width: 80%;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
   border-radius: 10px;
 }
-
 
 .right {
   display: flex;
@@ -34,39 +33,46 @@
   width: 100%;
 }
 
-.right h1 {
-  font-size: 40px;
-}
-
-.right p {
-  font-size: 20px;
-}
-
-.right h1, p {
+/* Alignement à gauche pour les titres et paragraphes par défaut */
+.right h1, .right p {
   margin: 0;
   text-align: left;
 }
 
-@media screen and (max-width: 1350px) {
+/* Modifications pour les écrans mobiles et tablettes */
+@media screen and (max-width: 768px) {
   .about_section_container {
-    flex-direction: column-reverse;
-    gap: 0;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .left, .right {
+    width: 100%;
   }
 
   .left img {
-    width: 100%;
-    padding: 0;
+    max-width: 100%;
+    margin-top: 20px;
   }
 
+  /* Placer le texte en haut pour les petits écrans */
   .right {
-    padding: 30px;
+    order: -1;
+    padding: 0;
+    align-items: center;
   }
 
-  .right h1 {
+  /* Centrer le titre et le texte uniquement sur les petits écrans */
+  .right h1, .right p {
     text-align: center;
   }
 
+  .right h1 {
+    font-size: 28px;
+  }
+
   .right p {
-    text-align: left !important;
+    font-size: 16px;
   }
 }

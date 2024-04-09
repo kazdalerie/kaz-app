@@ -4,6 +4,8 @@ import FooterSection from "./components/FooterSection";
 import HeroHeader from "./components/HeroHeader";
 import DrawerAppBar from "./components/Navbar";
 import ValuesSection from "./components/ValuesSection";
+import Formule from './components/Formule'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <HeroHeader />
       <About />
       <ValuesSection />
+      <Formule />
       <FooterSection />
+      <Footer/>
     </>
   );
 }
