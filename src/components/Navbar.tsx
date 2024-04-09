@@ -29,6 +29,10 @@ const navItems = [
     link: "#values",
   },
   {
+    content: "Nous suivre",
+    link: "#insta",
+  },
+  {
     content: "Notre menu",
     link: "#testimonials",
   },
