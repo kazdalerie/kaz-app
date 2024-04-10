@@ -1,0 +1,28 @@
+.instagramFeedContainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .instagramTitle {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .instagramIframeContainer {
+    flex-grow: 1;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .instagramIframe {
+    width: 80%;
+    height: 100%;
+    height: 700px;
+    border: none;
+    overflow: hidden;
+  }
+  
