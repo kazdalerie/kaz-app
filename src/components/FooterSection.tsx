@@ -19,7 +19,7 @@ function FooterSection() {
           <Typography
             variant="h3"
             component="h1"
-            sx={{ color: "#142A2E", fontWeight: "bold" }}
+            sx={{ color: "#0c5245", fontWeight: "bold" }}
             gutterBottom
           >
             Envie d'ouvrir une Kazdalerie ?
@@ -93,11 +93,11 @@ function FooterSection() {
             <Button
               type="submit"
               sx={{
-                backgroundColor: "#142A2E",
+                backgroundColor: "#0c5245",
                 padding: "20px 24px",
                 borderRadius: "46px",
                 ":hover": {
-                  backgroundColor: "#142A2E",
+                  backgroundColor: "#0c5245",
                 },
               }}
             >

@@ -6,7 +6,7 @@ export default function Testimonials() {
       <section className={styles.testimonials_section} id="testimonials">
         <div className={styles.testimonials_container}>
           <div className={styles.left}>
-            <img src="/images/menu.svg" />
+            <img src="/images/menuclean.png" />
           </div>
           <div className={styles.right}>
             <h1>L’ambition de la Kazdalerie est de démocratiser ce produit au travers d’une franchise utilisant des produits frais et un savoir-faire unique. </h1>

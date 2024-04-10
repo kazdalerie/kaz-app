@@ -29,8 +29,8 @@ const navItems = [
     link: "#values",
   },
   {
-    content: "Suivez nous",
-    link: "#contact",
+    content: "Notre menu",
+    link: "#testimonials",
   },
   {
     content: "Devenir associé",
@@ -49,7 +49,7 @@ export default function DrawerAppBar(props: Props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "left" }}>
       <Link href="#" sx={{ paddingX: 5 }}>
-        <img src="/images/logo-kasdalsmol.jpeg" alt="kazdalerie" />
+        <img src="/images/logo-kasdalsmol.png" alt="kazdalerie" />
       </Link>
       <Divider />
       <List>
@@ -60,7 +60,7 @@ export default function DrawerAppBar(props: Props) {
                 <ListItemText
                   primary={item.content}
                   sx={{
-                    color: "#000 !important",
+                    color: "#0c5245 !important",
                   }}
                 />
               </ListItemButton>
@@ -108,7 +108,7 @@ export default function DrawerAppBar(props: Props) {
               href="#"
               sx={{ display: { xs: "none", lg: "flex", gap: 43 } }}
             >
-              <img src="/images/logo.svg" alt="" />
+              <img src="/images/logo-kasdalsmol.png" alt="" />
             </Link>
           </Typography>
           <Box sx={{ display: { xs: "none", lg: "flex", gap: 43 } }}>
@@ -121,7 +121,7 @@ export default function DrawerAppBar(props: Props) {
                     textDecoration: "none",
                     color: "#000",
                     "&:hover": {
-                      color: "#71A894 !important",
+                      color: "#0c5245 !important",
                     },
                   }}
                 >
