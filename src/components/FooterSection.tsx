@@ -97,7 +97,7 @@ function FooterSection() {
                 backgroundColor: "#0c5245",
                 padding: "20px 24px",
                 borderRadius: "46px",
-                marginBottom: "20px",
+                marginBottom: "100px",
                 ":hover": {
                   backgroundColor: "#0c5245",
                 },
