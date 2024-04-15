@@ -101,18 +101,6 @@ function ValuesSection() {
             </Box>
           ))}
         </Box>
-        <div>
-          <h3>
-            L’ambition de la Kazdalerie est de démocratiser ce produit au
-            travers d’une franchise utilisant des produits frais et un
-            savoir-faire unique.
-          </h3>
-          <h3>
-            Marocains, Algériens, Tunisiens, tous ont leur propre façon de le
-            faire, et aujourd’hui c’est à la Kazdalerie de tous les rassembler
-            autour de nos recettes.
-          </h3>
-        </div>
       </Container>
     </>
   );
