@@ -12,7 +12,7 @@ import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import { Link } from "@mui/material";
+import { Button, Link } from "@mui/material";
 
 interface Props {
   window?: () => Window;
@@ -34,7 +34,7 @@ const navItems = [
   },
   {
     content: "Notre menu",
-    link: "#testimonials",
+    link: "https://menu-kazdalerie.tiiny.site/",
   },
   {
     content: "Devenir associé",
@@ -71,6 +71,29 @@ export default function DrawerAppBar(props: Props) {
             </ListItem>
           </Link>
         ))}
+        <ListItem disablePadding>
+          <ListItemButton
+            sx={{
+              textAlign: "left",
+              backgroundColor: "#0c5245",
+              "&:hover": { backgroundColor: "#034732" },
+            }}
+          >
+            <Link
+              href="https://www.ubereats.com/fr/store/la-kazdalerie/VOW8ex-ESPux1sQQWxe1ew?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjYlMjBSdWUlMjBTb2V1ciUyMEVtbWFudWVsbGUlMjIlMkMlMjJyZWZlcmVuY2UlMjIlM0ElMjJDaElKbTVsNWdqNTM1a2NScnBsRnN5Rm9LaE0lMjIlMkMlMjJyZWZlcmVuY2VUeXBlJTIyJTNBJTIyZ29vZ2xlX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDguNzU5NTM0MSUyQyUyMmxvbmdpdHVkZSUyMiUzQTIuMjk3MjUzJTdE
+        "
+              sx={{
+                textDecoration: "none",
+                color: "#ffff !important",
+                display: "block",
+                width: "100%",
+                height: "100%",
+              }}
+            >
+              Commandez sur UberEats
+            </Link>
+          </ListItemButton>
+        </ListItem>
       </List>
     </Box>
   );
@@ -123,7 +146,9 @@ export default function DrawerAppBar(props: Props) {
                   href={item.link}
                   sx={{
                     textDecoration: "none",
-                    color: "#000",
+                    color: "#0c5245",
+                    fontSize: "1.1em",
+                    fontWeight: "bold",
                     "&:hover": {
                       color: "#0c5245 !important",
                     },
@@ -133,6 +158,21 @@ export default function DrawerAppBar(props: Props) {
                 </Link>
               </Typography>
             ))}
+            <Button
+              variant="contained"
+              color="secondary"
+              href="https://www.ubereats.com/fr/store/la-kazdalerie/VOW8ex-ESPux1sQQWxe1ew?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjYlMjBSdWUlMjBTb2V1ciUyMEVtbWFudWVsbGUlMjIlMkMlMjJyZWZlcmVuY2UlMjIlM0ElMjJDaElKbTVsNWdqNTM1a2NScnBsRnN5Rm9LaE0lMjIlMkMlMjJyZWZlcmVuY2VUeXBlJTIyJTNBJTIyZ29vZ2xlX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDguNzU5NTM0MSUyQyUyMmxvbmdpdHVkZSUyMiUzQTIuMjk3MjUzJTdE" // Replace with your actual UberEats link
+              sx={{
+                backgroundColor: "#0c5245", // Choose a color that fits your design
+                color: "white !important",
+                marginTop: "-5px",
+                "&:hover": {
+                  backgroundColor: "#034732", // Darker shade on hover
+                },
+              }}
+            >
+              Commandez sur UberEats
+            </Button>
           </Box>{" "}
         </Toolbar>
       </AppBar>

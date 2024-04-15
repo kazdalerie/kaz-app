@@ -4,27 +4,26 @@ function ValuesSection() {
   const values = [
     {
       logo: "/icons/foodcart.png",
-      title: "Une marque de street-food maghrébine autour du traditionnel msemen",
-      description:
-        "",
+      title:
+        "Une marque de street-food maghrébine autour du traditionnel msemen",
+      description: "",
     },
     {
       logo: "/icons/saladier.png",
       title: "Des recettes copieuses et savoureuses crées par Zack Nani",
-      description:
-        "",
+      description: "",
     },
     {
       logo: "/icons/cartemenu.png",
-      title: "Un menu simple de 4 sandwichs, 2 sides et 3 desserts qui facilite les opérations en cuisine",
-      description:
-        "",
+      title:
+        "Un menu simple de 4 sandwichs, 2 sides et 3 desserts qui facilite les opérations en cuisine",
+      description: "",
     },
     {
       logo: "/icons/provisions.png",
-      title: "80% d'ingrédients préparés sur place ou par nos artisans partenaires",
-      description:
-        "",
+      title:
+        "80% d'ingrédients préparés sur place ou par nos artisans partenaires",
+      description: "",
     },
   ];
 
@@ -62,7 +61,11 @@ function ValuesSection() {
           {values.map((value, index) => (
             <Box
               key={index}
-              flexBasis={{ xs: "100%", sm: "calc(50% - 30px)", md: "calc(25% - 45px)" }}
+              flexBasis={{
+                xs: "100%",
+                sm: "calc(50% - 30px)",
+                md: "calc(25% - 45px)",
+              }}
               sx={{ mb: 4, height: "auto" }}
             >
               <Paper
@@ -98,6 +101,18 @@ function ValuesSection() {
             </Box>
           ))}
         </Box>
+        <div>
+          <h3>
+            L’ambition de la Kazdalerie est de démocratiser ce produit au
+            travers d’une franchise utilisant des produits frais et un
+            savoir-faire unique.
+          </h3>
+          <h3>
+            Marocains, Algériens, Tunisiens, tous ont leur propre façon de le
+            faire, et aujourd’hui c’est à la Kazdalerie de tous les rassembler
+            autour de nos recettes.
+          </h3>
+        </div>
       </Container>
     </>
   );
