@@ -37,7 +37,7 @@ const navItems = [
     link: "https://menu-kazdalerie.tiiny.site/",
   },
   {
-    content: "Devenir associé",
+    content: "Devenir franchisé",
     link: "#contact",
   },
 ];

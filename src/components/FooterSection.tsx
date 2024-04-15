@@ -10,7 +10,8 @@ function FooterSection() {
         display: 'flex', // Added for centering
         alignItems: 'center', // Added for centering
         justifyContent: 'center', // Added for centering
-        height: '100vh' // Adjust height to full viewport height
+        height: '100vh', // Adjust height to full viewport height
+        marginTop: '50px', // Added for spacing
       }}
       id="contact"
     >
@@ -96,6 +97,7 @@ function FooterSection() {
                 backgroundColor: "#0c5245",
                 padding: "20px 24px",
                 borderRadius: "46px",
+                marginBottom: "20px",
                 ":hover": {
                   backgroundColor: "#0c5245",
                 },

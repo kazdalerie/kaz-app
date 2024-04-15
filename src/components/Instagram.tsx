@@ -33,7 +33,7 @@ function InstagramFeed() {
       </Box>
       <div className={styles.instagramIframeContainer}>
         <iframe
-          src="https://widgets.sociablekit.com/instagram-feed/iframe/25393606"
+          src="https://widgets.sociablekit.com/instagram-feed/iframe/25398015'"
           className={styles.instagramIframe}
         ></iframe>
       </div>
