@@ -57,14 +57,19 @@ export default function DrawerAppBar(props: Props) {
       </Link>
       <Divider />
       <List>
-        {navItems.map((item) => (
-          <Link href={item.link}>
+        {navItems.map((item, index) => (
+          <Link href={item.link} key={index} sx={{ textDecoration: "none" }}>
             <ListItem key={item.content} disablePadding>
               <ListItemButton sx={{ textAlign: "left" }}>
                 <ListItemText
                   primary={item.content}
                   sx={{
+                    fontFamily: '"Paytone One", sans-serif !important',
                     color: "#0c5245 !important",
+                    "& .MuiTypography-root": {
+                      fontFamily: '"Paytone One", sans-serif !important',
+
+                    },
                   }}
                 />
               </ListItemButton>
@@ -85,6 +90,7 @@ export default function DrawerAppBar(props: Props) {
               sx={{
                 textDecoration: "none",
                 color: "#ffff !important",
+                fontFamily: '"Paytone One", sans-serif !important',
                 display: "block",
                 width: "100%",
                 height: "100%",
@@ -149,6 +155,7 @@ export default function DrawerAppBar(props: Props) {
                     color: "#0c5245",
                     fontSize: "1.1em",
                     fontWeight: "bold",
+                    fontFamily: '"Paytone One", sans-serif !important',
                     "&:hover": {
                       color: "#0c5245 !important",
                     },
@@ -166,6 +173,7 @@ export default function DrawerAppBar(props: Props) {
                 backgroundColor: "#0c5245", // Choose a color that fits your design
                 color: "white !important",
                 marginTop: "-5px",
+                fontFamily: '"Paytone One", sans-serif !important',
                 "&:hover": {
                   backgroundColor: "#034732", // Darker shade on hover
                 },

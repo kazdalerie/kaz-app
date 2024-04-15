@@ -43,7 +43,7 @@ function ValuesSection() {
         <Box textAlign="center" mb={7.5}>
           <Typography
             variant="h3"
-            component="h1"
+            fontFamily='"Paytone One", sans-serif !important'
             sx={{ color: "#0c5245", fontWeight: "bold" }}
             gutterBottom
           >

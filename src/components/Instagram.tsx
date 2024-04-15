@@ -9,6 +9,7 @@ function InstagramFeed() {
         <Typography
           variant="h3"
           component="h3"
+          fontFamily='"Paytone One", sans-serif !important'
           sx={{ color: "#0c5245", fontWeight: "bold" }}
           gutterBottom
         >
