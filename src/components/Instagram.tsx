@@ -13,7 +13,7 @@ function InstagramFeed() {
           sx={{ color: "#0c5245", fontWeight: "bold" }}
           gutterBottom
         >
-          Suivez nous sur instagram
+          SUIVEZ NOUS SUR INSTAGRAM
         </Typography>
         <a
           href="https://www.instagram.com/lakazdalerie/?utm_source=ig_embed&ig_rid=62fa6b0a-3be5-48b1-b71a-84a2c8edb129"

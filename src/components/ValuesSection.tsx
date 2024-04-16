@@ -47,7 +47,7 @@ function ValuesSection() {
             sx={{ color: "#0c5245", fontWeight: "bold" }}
             gutterBottom
           >
-            Notre concept
+            NOTRE CONCEPT
           </Typography>
         </Box>
 
@@ -75,8 +75,8 @@ function ValuesSection() {
                   display: "flex",
                   flexDirection: "column",
                   alignItems: "center",
-                  justifyContent: "center",
-                  padding: "64px 17px",
+                  justifyContent: "stretch",
+                  padding: "60px 17px",
                   backgroundColor: "#0c5245", // Set green background color
                   color: "#FFFFFF",
                 }}

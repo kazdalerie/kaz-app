@@ -24,7 +24,7 @@ function FooterSection() {
             sx={{ color: "#0c5245", fontWeight: "bold" }}
             gutterBottom
           >
-            Envie d'ouvrir une Kazdalerie ?
+            ENVIE D'OUVRIR UNE KAZDALERIE ?
           </Typography>
         </Box>
         <form
