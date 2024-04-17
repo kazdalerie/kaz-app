@@ -16,7 +16,7 @@ function App() {
       <About />
       <ValuesSection />
       <Instagram/>
-      {/* <Formule /> */}
+      <Formule />
       <FooterSection />
       <Footer/>
     </>
