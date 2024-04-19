@@ -4,9 +4,10 @@ import FooterSection from "./components/FooterSection";
 import HeroHeader from "./components/HeroHeader";
 import DrawerAppBar from "./components/Navbar";
 import ValuesSection from "./components/ValuesSection";
+import Avantage from './components/Avantage'
 import Formule from './components/Formule'
 import Footer from './components/Footer';
-import Instagram from './components/Instagram'
+import Instagram from './components/Instagram';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <HeroHeader />
       <About />
       <ValuesSection />
+      <Avantage/>
       <Instagram/>
       <Formule />
       <FooterSection />
