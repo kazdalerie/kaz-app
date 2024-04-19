@@ -8,6 +8,8 @@
   height: auto; /* Changed from 10% to auto for better height management */
   background-color: #0c5245;
   width: 100%;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 .button_container {

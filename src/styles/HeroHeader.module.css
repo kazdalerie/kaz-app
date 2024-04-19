@@ -19,6 +19,8 @@
   line-height: 1.2;
   margin-bottom: 20px; /* Réduit la marge sous le titre */
   text-align: left;
+  color: #0c5245;
+  font-family: "Paytone One", sans-serif !important;
 }
 
 .left h3 {
@@ -26,6 +28,10 @@
   line-height: 1.3;
   font-weight: bold;
   margin-bottom: 15px; /* Réduit la marge sous le sous-titre */
+  width: 90%;
+  font-family: "Paytone One", sans-serif !important;
+
+
 }
 
 .left p {

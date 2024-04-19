@@ -1,5 +1,4 @@
 import "./App.css";
-import About from "./components/About";
 import FooterSection from "./components/FooterSection";
 import HeroHeader from "./components/HeroHeader";
 import DrawerAppBar from "./components/Navbar";
@@ -14,7 +13,6 @@ function App() {
     <>
       <DrawerAppBar />
       <HeroHeader />
-      <About />
       <ValuesSection />
       <Avantage/>
       <Instagram/>
