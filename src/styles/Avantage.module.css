@@ -1,0 +1,32 @@
+/* styles.css */
+
+.svg-line {
+    stroke: #0c5245;
+    stroke-width: 5;
+  }
+  
+  /* Taille et position des lignes */
+  .svg-line.first-line {
+    /* Première ligne */
+    x1: 30%;
+    y1: 0;
+    x2: 10%;
+    y2: 100%;
+  }
+  
+  .svg-line.second-line {
+    /* Deuxième ligne */
+    x1: 50%;
+    y1: 0%;
+    x2: 50%;
+    y2: 100%;
+  }
+  
+  .svg-line.third-line {
+    /* Troisième ligne */
+    x1: 70%;
+    y1: 0;
+    x2: 90%;
+    y2: 100%;
+  }
+  

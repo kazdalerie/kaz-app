@@ -12,7 +12,10 @@
   flex-direction: column;
   max-width: 60%; /* Espace alloué au texte */
   gap: 20px; /* Espacement entre les éléments du texte ajusté */
+  margin: 0 auto; /* Centrage horizontal du contenu */
+  text-align: center; /* Centrage horizontal du texte */
 }
+
 
 .left h1 {
   font-size: 64px;
@@ -28,7 +31,7 @@
   line-height: 1.3;
   font-weight: bold;
   margin-bottom: 15px; /* Réduit la marge sous le sous-titre */
-  width: 90%;
+  width: 100%;
   font-family: "Paytone One", sans-serif !important;
 
 
