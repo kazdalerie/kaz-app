@@ -17,7 +17,7 @@ function AdvantagesSection() {
   ];
 
   // Utilisation de useMediaQuery pour détecter les écrans de téléphone
-  const isMobile = useMediaQuery((theme) => theme.breakpoints.down("sm"));
+  const isMobile = useMediaQuery((theme: any) => theme.breakpoints.down("sm"));
 
   return (
     <>
