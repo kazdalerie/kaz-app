@@ -2,8 +2,6 @@ import React from 'react';
 import styles from '../styles/Footer.module.css'; // Ajustez le chemin selon l'organisation de vos fichiers
 
 const Footer: React.FC = () => {
-  const footerNav = '6 rue Soeur Emmanuelle • Antony, 92160 • France';
-  const number = '+33 6 40 14 33 74';
   // Obtenez l'année courante
   const currentYear = new Date().getFullYear();
   
@@ -27,8 +25,6 @@ const Footer: React.FC = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.footerContainer}>
-        <span>{footerNav}</span>
-        <span>{number}</span>
         <div className={styles.socialLinks}>
           {socialNetworks.map((network, index) => (
             <a key={index} className={styles.socialLink} href={network.url} target="_blank" rel="noopener noreferrer" aria-label={network.name}>

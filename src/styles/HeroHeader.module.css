@@ -86,6 +86,9 @@
 
   .left h3 {
     font-size: 20px; /* Ajuste la taille de la police pour les sous-titres */
+    width: auto;
+
+
   }
 
   .right img {

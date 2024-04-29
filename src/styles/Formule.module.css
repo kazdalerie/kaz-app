@@ -7,6 +7,8 @@
   padding: 10%;
   height: auto; /* Changed from 10% to auto for better height management */
   background-color: #0c5245;
+  background-image: url("../../public/images/zelige.jpg");
+  background-size: cover;
   width: 100%;
   margin-top: 5em;
   margin-bottom: 5em;
@@ -21,13 +23,13 @@
 
 .ubereats_button {
   display: inline-block; /* Better for inline sizing */
-  padding: 1.5rem 2.5rem; /* More consistent padding units */
+  padding: 2.8rem 4.3rem; /* More consistent padding units */
   background-color: #ffffff;
   color: #0c5245; /* Adjusted for better contrast on the green background */
   text-align: center;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.7rem; /* Responsive font size */
+  font-size: 2.3rem; /* Responsive font size */
   border-radius: 8px;
   transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
