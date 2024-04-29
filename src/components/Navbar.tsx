@@ -21,12 +21,12 @@ interface Props {
 const drawerWidth = 240;
 const navItems = [
   {
-    content: "Qui sommes-nous ?",
-    link: "#about",
-  },
-  {
     content: "Notre concept",
     link: "#values",
+  },
+  {
+    content: "Nos avantages",
+    link: "#advantages"
   },
   {
     content: "Nous suivre",
